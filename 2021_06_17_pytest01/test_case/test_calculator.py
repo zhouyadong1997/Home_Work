@@ -15,7 +15,7 @@ from test_base.calculator import Calculator
 from test_base.get_yaml import GetYaml
 from decimal import *
 
-@allure.story("计算器测试")
+@allure.feature("计算器测试")
 class TestCalculator:
 
     def setup_class(self):

@@ -4,8 +4,8 @@
   ids: ["all int add test", "zero int add test", "big int add test"]
 
 "add_float":
-  datas: [[ 0.01, 0.002, 0.012 ], [ 0.000001, 0.000001, 0.000002 ]]
-  ids: ["all float add test", "minimum float add test"]
+  datas: [[ 0.01, 0.002, 0.012 ], [ 0.000001, 0.000001, 0.000002 ],[0.1,0.2,0.3]]
+  ids: ["all float add test", "minimum float add test", " float add test"]
 
 "int_float":
   datas: [[ 1, 0.2, 1.2 ], [ 0, 0.005, 0.005 ], [ 0.001, 9999, 9999.001 ]]

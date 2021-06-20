@@ -1,7 +1,7 @@
 """
 创建一个计算器
 """
-
+from decimal import *
 
 class Calculator:
     def add(self, a, b):
@@ -15,6 +15,7 @@ class Calculator:
 
     def div(self, a, b):
         return a / b
+
 
 if __name__ == '__main__':
     c = Calculator()

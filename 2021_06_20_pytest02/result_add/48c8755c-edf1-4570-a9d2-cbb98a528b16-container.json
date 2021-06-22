@@ -1,0 +1,1 @@
+{"uuid": "09064c4c-3dd3-408b-b74e-bdb32a4ea2b5", "children": ["a02b6017-3f3f-409b-8837-e8f2ca214b29"], "befores": [{"name": "calculator_terset", "status": "passed", "start": 1624371836581, "stop": 1624371836581}], "afters": [{"name": "calculator_terset::0", "status": "passed", "start": 1624371836581, "stop": 1624371836596}], "start": 1624371836581, "stop": 1624371836596}

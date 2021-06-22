@@ -1,0 +1,36 @@
+#"add_int": ["data":[[1, 2, 3], [0, 2, 2], [10000, 10000, 20000]],]
+"add_int":
+  datas: [[1, 2, 3], [0, 2, 2], [10000, 10000, 20000]]
+  ids: ["all int add test", "zero int add test", "big int add test"]
+
+"add_float":
+  datas: [[ 0.01, 0.002, 0.012 ], [ 0.000001, 0.000001, 0.000002 ],[0.1,0.2,0.3]]
+  ids: ["all float add test", "minimum float add test", " float add test"]
+
+"int_float":
+  datas: [[ 1, 0.2, 1.2 ], [ 0, 0.005, 0.005 ], [ 0.001, 9999, 9999.001 ]]
+  ids: ["int float add ", "zero float add ", "big int float add "]
+
+"number_str":
+  datas: [[1, "2", 3], [0, "0.005", 0.005]]
+  ids: ["int str add ", "zero str add "]
+
+"add_str":
+  datas: [["a", "b", "ab"], ["1", "2", "12"], ["d", "2", "d2"]]
+  ids: ["all str add ", "number str add ", "str number add "]
+
+"div_int":
+  datas: [[1, 1, 1], [10000, 1, 10000], [10000, 10000, 1]]
+  ids: ["all minimum int div ", "big int minimum int div ", "all big int div"]
+
+"division_zero":
+  datas: [[0, 0, 0], [10000, 0, 10000], [0.002, 0, 0]]
+  ids: ["all zero div ", "big int zero div ", "float zero div"]
+
+"div_float":
+  datas: [[0.2, 0.02, 10], [0.5, 5, 0.1], [0.002, 1, 0.002]]
+  ids: ["all float  div ", "float int div 1", "float int div 2"]
+
+"divisor_zero":
+  datas: [[0, 1, 0], [0, 0.05, 0], [0, 10000, 0]]
+  ids: ["zero int  div ", "zero float  div", "zero big int  div"]

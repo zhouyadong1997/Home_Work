@@ -44,8 +44,7 @@ class TestCalculator:
     @pytest.mark.parametrize("a, b, expect", g["add_float"]["datas"],
                              ids=g["add_float"]["ids"])
     def test_add_float(self, a, b, expect):
-        getcontext().prec=4
-        assert expect == (self.c.add(a, b))
+        assert expect == round((self.c.add(a, b)), 10)
 
     @allure.story("整数和浮点数之间的加法计算")
     @pytest.mark.parametrize("a, b, expect", g["int_float"]["datas"],
@@ -57,10 +56,8 @@ class TestCalculator:
     @pytest.mark.parametrize("a, b, expect", g["number_str"]["datas"],
                              ids=g["number_str"]["ids"])
     def test_add_number_str(self, a, b, expect):
-        try:
-            assert expect == self.c.add(a, b)
-        except Exception as e:
-            print("字符串不能和数字相加", e)
+        with pytest.raises(TypeError):
+            self.c.add(a, b)
 
     @allure.story("字符串之间的加法计算")
     @pytest.mark.parametrize("a, b, expect", g["add_str"]["datas"],
@@ -78,10 +75,9 @@ class TestCalculator:
     @pytest.mark.parametrize("a, b, expect", g["division_zero"]["datas"],
                              ids=g["division_zero"]["ids"])
     def test_div_division_zero(self, a, b, expect):
-        try:
-            assert expect == self.c.div(a, b)
-        except Exception as e:
-            print("0 不能作为除数", e)
+        with pytest.raises(ZeroDivisionError):
+            assert expect == self.c.div(a,b)
+
 
     @allure.story("浮点数之间的除法计算")
     @pytest.mark.parametrize("a, b, expect", g["div_float"]["datas"],

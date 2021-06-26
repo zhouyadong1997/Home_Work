@@ -1,0 +1,12 @@
+[32mINFO    [0m root:test_wechat_linkman.py:47 实例化webdriver对象
+[32mINFO    [0m root:test_wechat_linkman.py:52 打开企业微信
+[32mINFO    [0m root:test_wechat_linkman.py:56 浏览器最大化
+[32mINFO    [0m root:test_wechat_linkman.py:61 获取cookies
+[32mINFO    [0m root:test_wechat_linkman.py:64 遍历cookies，添加到selenium中
+[32mINFO    [0m root:test_wechat_linkman.py:69 再次登录企业微信
+[32mINFO    [0m root:test_wechat_linkman.py:77 点击添加成员
+[32mINFO    [0m root:test_wechat_linkman.py:82 填写姓名:张飞
+[32mINFO    [0m root:test_wechat_linkman.py:97 进行截图
+[32mINFO    [0m root:test_wechat_linkman.py:105 将滚动条移动到页面的底部
+[32mINFO    [0m root:test_wechat_linkman.py:111 点击保存
+[32mINFO    [0m root:test_wechat_linkman.py:124 退出当前浏览器

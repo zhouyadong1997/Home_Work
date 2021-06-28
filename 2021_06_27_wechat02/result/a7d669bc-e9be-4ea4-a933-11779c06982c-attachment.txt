@@ -1,0 +1,27 @@
+[32mINFO    [0m root:test_wechat_bm.py:21 开始运行测试用例
+[32mINFO    [0m root:test_wechat_bm.py:22 开始实例化HomePage对象
+[32mINFO    [0m root:base_class.py:36 实例化webdriver
+[32mINFO    [0m root:base_class.py:38 浏览器全屏显示
+[32mINFO    [0m root:base_class.py:42 遍历cookies，添加到selenium中
+[32mINFO    [0m root:home_page.py:31 点击通讯录
+[32mINFO    [0m root:base_class.py:63 元素定位成功，开始return对象
+[32mINFO    [0m root:address_page.py:36 点击加号
+[32mINFO    [0m root:base_class.py:63 元素定位成功，开始return对象
+[32mINFO    [0m root:address_page.py:40 点击添加部门
+[32mINFO    [0m root:base_class.py:63 元素定位成功，开始return对象
+[32mINFO    [0m root:address_page.py:44 填写部门名称
+[32mINFO    [0m root:base_class.py:63 元素定位成功，开始return对象
+[32mINFO    [0m root:address_page.py:48 单击所属部门
+[32mINFO    [0m root:base_class.py:63 元素定位成功，开始return对象
+[32mINFO    [0m root:address_page.py:52 选择对应的部门
+[32mINFO    [0m root:base_class.py:63 元素定位成功，开始return对象
+[32mINFO    [0m root:address_page.py:56 点击确定
+[32mINFO    [0m root:base_class.py:63 元素定位成功，开始return对象
+[32mINFO    [0m root:address_page.py:61 获取当前部门名称
+[32mINFO    [0m root:base_class.py:63 元素定位成功，开始return对象
+[32mINFO    [0m root:address_page.py:71 关闭浏览器
+[32mINFO    [0m root:base_class.py:81 关闭当前浏览器
+[32mINFO    [0m root:address_page.py:73 返回断言结果:销售部
+[32mINFO    [0m root:test_wechat_bm.py:34 开始断言
+[32mINFO    [0m root:test_wechat_bm.py:36 销售部添加成功
+[32mINFO    [0m root:test_wechat_bm.py:27 测试用例执行结束

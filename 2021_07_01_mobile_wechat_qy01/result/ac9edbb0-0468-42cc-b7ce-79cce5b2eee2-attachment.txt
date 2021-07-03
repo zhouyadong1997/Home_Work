@@ -1,0 +1,9 @@
+[32mINFO    [0m root:home_page.py:32 当前页面：企业微信主页
+[32mINFO    [0m root:home_page.py:35 点击通讯录
+[32mINFO    [0m root:home_page.py:38 进入通讯录页面
+[32mINFO    [0m root:address_page.py:26 全局滑动点击添加成员
+[32mINFO    [0m root:address_page.py:28 进入添加成员页面
+[32mINFO    [0m root:hand_add.py:27 点击手动添加
+[32mINFO    [0m root:add_user.py:53 输入姓名
+[32mINFO    [0m root:add_user.py:56 输入手机号
+[32mINFO    [0m root:add_user.py:59 点击保存

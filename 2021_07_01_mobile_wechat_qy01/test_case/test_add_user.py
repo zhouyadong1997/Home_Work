@@ -26,11 +26,11 @@ class TestAddUser():
     @pytest.mark.parametrize("username, phone_number", [
         ["马超", 15171791007], ["马岱", 15171791008]], ids=["add machao", "add madai"])
     def test_add_user(self, username, phone_number):
-        users = HomePage().goto_address().goto_add_user().hand_add().add_user(username,
-                                                                              phone_number).get_user()
-        print("当前users", users)
-        assert username in users
-        info(username, " 添加成功")
+        toast_text = HomePage().goto_address().goto_add_user().hand_add().add_user(username,
+                                                                                   phone_number)
+        info("当前page_source", toast_text)
+        assert toast_text == "添加成功"
+        # info(username, " 添加成功")
 
     @allure.story("添加已存在的成员")
     @pytest.mark.parametrize("username, phone_number", [

@@ -19,10 +19,10 @@ class AddUserPage(BaseClassAppium):
     __bz = (MobileBy.ID, "com.tencent.wework:id/ad2")
     __repetition_text = (MobileBy.ID, "com.tencent.wework:id/bg4")
     __txl = (MobileBy.XPATH, '//*[@text="通讯录"]')
+    __toast = (MobileBy.XPATH, "//*[@class='android.widget.Toast']")
 
     def add_user(self, username, phone_number):
-        from page_object.address_page import AddressPage
-        time.sleep(2)
+        time.sleep(1)
         with allure.step("输入姓名"):
             info("输入姓名")
             self.send_keys(self.__user_name, username)
@@ -33,19 +33,17 @@ class AddUserPage(BaseClassAppium):
             info("点击保存")
             self.find_element(self.__bz).click()
 
+        with allure.step("获取toast文本信息"):
+            info("获取toast文本信息")
+            # time.sleep(1)
+            toast_text = self.find_element(self.__toast).text
+
         with allure.step("进行截图"):
             info("进行截图")
             self.driver.save_screenshot(
                 "E:\\Home_Work\\2021_07_01_mobile_wechat_qy01\\png\\{0}.png".format(self.__user_name))
 
-        with allure.step("页面回退"):
-            info("页面回退")
-            self.driver.back()
-            # self.driver.back()
-        #
-        # with allure.step("点击通讯录"):
-        #     self.find_element(self.__txl)
-        return AddressPage(self.driver)
+        return toast_text
 
     def repetition_user(self, username, phone_number):
         time.sleep(2)

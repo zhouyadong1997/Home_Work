@@ -1,0 +1,23 @@
+[32mINFO    [0m root:test_add_user.py:24 打开APP
+[32mINFO    [0m root:base_class_appium.py:43 driver 不为 None, 复用之前的driver
+[32mINFO    [0m root:home_page.py:32 当前页面：企业微信主页
+[32mINFO    [0m root:home_page.py:35 点击通讯录
+[32mINFO    [0m root:home_page.py:38 进入通讯录页面
+[32mINFO    [0m root:base_class_appium.py:43 driver 不为 None, 复用之前的driver
+[32mINFO    [0m root:address_page.py:28 全局滑动点击添加成员
+[32mINFO    [0m root:address_page.py:30 进入添加成员页面
+[32mINFO    [0m root:base_class_appium.py:43 driver 不为 None, 复用之前的driver
+[32mINFO    [0m root:hand_add.py:27 点击手动添加
+[32mINFO    [0m root:base_class_appium.py:43 driver 不为 None, 复用之前的driver
+[32mINFO    [0m root:add_user.py:27 输入姓名
+[32mINFO    [0m root:add_user.py:30 输入手机号
+[32mINFO    [0m root:add_user.py:33 点击保存
+[32mINFO    [0m root:add_user.py:37 获取toast文本信息
+[32mINFO    [0m root:add_user.py:42 进行截图
+[32mINFO    [0m root:test_add_user.py:41 当前page_source添加成功
+[32mINFO    [0m root:test_add_user.py:28 回到手机桌面
+[32mINFO    [0m root:base_class_appium.py:107 第0次back
+[32mINFO    [0m root:base_class_appium.py:107 第1次back
+[32mINFO    [0m root:base_class_appium.py:107 第2次back
+[32mINFO    [0m root:base_class_appium.py:107 第3次back
+[32mINFO    [0m root:base_class_appium.py:107 第4次back

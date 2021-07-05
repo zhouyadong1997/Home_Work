@@ -1,0 +1,13 @@
+[32mINFO    [0m root:test_add_user.py:24 打开APP
+[32mINFO    [0m root:base_class_appium.py:43 driver 不为 None, 复用之前的driver
+[32mINFO    [0m root:home_page.py:32 当前页面：企业微信主页
+[32mINFO    [0m root:home_page.py:35 点击通讯录
+[32mINFO    [0m root:home_page.py:38 进入通讯录页面
+[32mINFO    [0m root:base_class_appium.py:43 driver 不为 None, 复用之前的driver
+[32mINFO    [0m root:test_add_user.py:28 回到手机桌面
+[32mINFO    [0m root:base_class_appium.py:107 第0次back
+[32mINFO    [0m root:base_class_appium.py:107 第1次back
+[32mINFO    [0m root:base_class_appium.py:107 第2次back
+[32mINFO    [0m root:base_class_appium.py:107 第3次back
+[32mINFO    [0m root:base_class_appium.py:107 第4次back
+[32mINFO    [0m root:test_add_user.py:33 用例执行结束，释放资源

@@ -1,0 +1,8 @@
+[32mINFO    [0m root:test_member.py:20 实例化成员接口对象：Member()
+[32mINFO    [0m root:base_api.py:20 开始初始化，获取token
+[32mINFO    [0m root:test_member.py:22 实例化Faker对象,并将人员信息归属地设置成中国
+[32mINFO    [0m root:test_member.py:35 添加成员
+[32mINFO    [0m root:member.py:30 添加成员黄淑珍，userid为WRHK61645864660671
+[32mINFO    [0m root:member.py:32 department is None, default value is [1]
+[32mINFO    [0m root:member.py:41 发送post请求，返回response
+[32mINFO    [0m root:test_member.py:39 进行断言

@@ -1,0 +1,4 @@
+[32mINFO    [0m root:member.py:50 删除成员，成员id为NKLL10047395214863
+[32mINFO    [0m root:member.py:52 发送get请求，返回response
+[32mINFO    [0m root:test_member.py:56 发送请求，进行删除成员KLXB65939475907302
+[32mINFO    [0m root:test_member.py:58 进行断言

@@ -1,0 +1,2 @@
+[32mINFO    [0m root:member.py:77 添加成员CVYL48947731480257
+[32mINFO    [0m root:test_member.py:95 发送请求，获取成员CVYL48947731480257信息

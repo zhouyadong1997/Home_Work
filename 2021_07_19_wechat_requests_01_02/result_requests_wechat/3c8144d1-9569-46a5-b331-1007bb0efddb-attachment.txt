@@ -1,0 +1,2 @@
+[32mINFO    [0m root:member.py:77 添加成员IEJC89868771140512
+[32mINFO    [0m root:test_member.py:95 发送请求，获取成员IEJC89868771140512信息

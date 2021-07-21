@@ -1,0 +1,7 @@
+[32mINFO    [0m root:test_member.py:70 添加成员
+[32mINFO    [0m root:member.py:30 添加成员王玉华，userid为SLCQ18019447817340
+[32mINFO    [0m root:member.py:32 department is None, default value is [1]
+[32mINFO    [0m root:member.py:41 发送post请求，返回response
+[32mINFO    [0m root:test_member.py:75 更新成员信息
+[32mINFO    [0m root:member.py:62 更新成员，成员id为SLCQ18019447817340
+[32mINFO    [0m root:test_member.py:78 进行断言
